@@ -359,7 +359,7 @@ def display_voxel_buffer(buffer, low_res_buffer, bounding_boxes, factor=4):
     pygame.quit()
 
 if __name__ == "__main__":
-    shape = (512, 512)
+    shape = (256, 256)
     chunk_size = 8
     voxel_buffer = create_voxel_buffer(shape)
     low_res_buffer = create_lower_resolution_buffer(voxel_buffer, chunk_size)
