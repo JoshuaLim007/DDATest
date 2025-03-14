@@ -2,6 +2,8 @@
 
 Voxel ray traversal algorithm prototype
 
+Prototype designed for voxel raytracing renderer.
+
 #### Overview
 
 - Two level tree DDA search algorithm
